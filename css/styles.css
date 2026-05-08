@@ -171,6 +171,12 @@ footer .footer-list {
   padding-bottom: 2rem;
 }
 
+.card p {
+  font-size: 18px;
+}
+.card p span {
+  font-size: 26px;
+}
 .card img {
   width: 100%;
   height: 30rem;
@@ -190,8 +196,8 @@ footer .footer-list {
 }
 
 .form-contacto {
-  background-color: brown;
-  color: aliceblue;
+  background-color: #111111;
+  color: #ffe81f;
   width: 100%;
   max-width: 50rem;
   font-size: 2rem;
@@ -211,9 +217,12 @@ footer .footer-list {
 .grupo-input input,
 .grupo-input textarea {
   border: none;
+  color: beige;
   background-color: transparent;
   border-bottom: solid 2px grey;
   margin-bottom: 3rem;
+  height: 3rem;
+  font-size: 2rem;
 }
 
 .grupo-input textarea {
