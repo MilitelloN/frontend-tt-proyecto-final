@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <title>contacto</title>
+  </head>
+  <body>
+    <header>
+      <div class="div-logo">
+        <a href="../index.html" class="logo">logo</a>
+      </div>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="../index.html">home</a></li>
+          <li><a href="./contacto.html">contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="titulo-contacto text-secondary">contactanos</h1>
+      <form
+        action="https://formspree.io/f/xrejalpg"
+        method="POST"
+        class="form-contacto"
+      >
+        <div class="grupo-input">
+          <label>
+            email:
+            <input type="email" name="email" />
+          </label>
+        </div>
+        <div class="grupo-input">
+          <label>
+            mensaje:
+            <textarea name="message"></textarea>
+          </label>
+        </div>
+        <button class="btn bg-secondary text-dark" type="submit">enviar</button>
+      </form>
+    </main>
+    <footer>
+      <p>propiedad de nico militello</p>
+      <nav>
+        <ul class="footer-list">
+          <li><img src="../img/whatsapp.png" alt="Logo-whatsapp" /></li>
+          <li><img src="../img/insta-amarillo.png" alt="Logo-instagram" /></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
