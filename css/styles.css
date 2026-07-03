@@ -52,10 +52,10 @@ h2 {
 .btn {
   border: none;
   font-size: 1.6rem;
+  background-color: #ffe81f;
   font-weight: bold;
   padding: 1rem 1.5rem 0.5rem 1.2rem;
   border-radius: 1rem;
-  color: black;
   cursor: pointer;
   margin-top: auto;
 }
@@ -246,7 +246,6 @@ footer .footer-list {
 p {
   font-family: "Star Wars", sans-serif;
   font-size: 1.6rem;
-  color: #ffe81f;
 }
 
 .form-contacto button {

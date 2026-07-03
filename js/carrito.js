@@ -15,7 +15,7 @@ const renderizarCarrito = () => {
   if (!carrito.length) {
     const mensaje = document.createElement("p");
     mensaje.classList.add("mensaje-carrito-vacio");
-    mensaje.textContent = "Tuy carrito esta vacio";
+    mensaje.textContent = "Tu carrito esta vacio";
 
     contenedor.appendChild(mensaje);
     return;
@@ -59,8 +59,8 @@ const renderizarCarrito = () => {
 
   const btnVaciar = document.createElement("button");
   btnVaciar.classList.add("btn");
-  boton.classList.add("btn-vaciar-carrito");
-  boton.textContent = "Vaciar carrito";
+  btnVaciar.classList.add("btn-vaciar-carrito");
+  btnVaciar.textContent = "Vaciar carrito";
 
   btnVaciar.addEventListener("click", () => {
     vaciarCarrito();
