@@ -16,6 +16,11 @@
         <ul>
           <li><a href="./index.html">Home</a></li>
           <li><a href="pages/contacto.html">Contacto</a></li>
+          <li>
+            <a href="pages/carrito.html" class="carrito-icono">
+              Carrito <span id="contador-carrito">0</span>
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -27,8 +32,15 @@
       <p class="parrafo">solo aceptamos creditos galacticos</p>
       <section>
         <h2 class="titulo-productos text-secondary">Nuestros productos</h2>
-        <div class="contenedor-tarjetas">
+        <div class="contenedor-tarjetas" id="contenedor-tarjetas">
           <article class="card text-light">
+            <img src="img/slavei.png" alt="Imagen del SLAVE 1" />
+            <h3>slave iiii</h3>
+            <p>Las mejores cargas sismicas salen de aca</p>
+            <p>10.000<span>ᖬ</span></p>
+            <button class="btn bg-secondary text-dark">texto</button>
+          </article>
+          <!-- <article class="card text-light">
             <img src="img/slavei.png" alt="Imagen del SLAVE 1" />
             <h3>slave i</h3>
             <p>Las mejores cargas sismicas salen de aca</p>
@@ -76,7 +88,7 @@
             <button class="btn bg-secondary text-dark">
               <img src="img/carrito.png" />
             </button>
-          </article>
+          </article> -->
         </div>
       </section>
     </main>
@@ -89,5 +101,6 @@
         </ul>
       </nav>
     </footer>
+    <script type="module" src="./js/index.js"></script>
   </body>
 </html>

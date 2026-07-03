@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "nombre": "Slave i",
+    "desc": "Las mejores cargas sismicas salen de aca",
+    "precio": "10000",
+    "img": "img/slavei.png",
+    "alt": "Imagen del SALVE I"
+  },
+  {
+    "id": "2",
+    "nombre": "Millenium Falcon",
+    "desc": "cruzo el corredor de Kessel en menos de doce parsecs",
+    "precio": "20000",
+    "img": "img/falcon.png",
+    "alt": "Imagen del Halcon milenario"
+  },
+  {
+    "id": "3",
+    "nombre": "Tie Fighter",
+    "desc": "La vieja confiable del imperio",
+    "precio": "7000",
+    "img": "img/tief.png",
+    "alt": "Imagen del TIE Fighter"
+  },
+  {
+    "id": "4",
+    "nombre": "Lambda",
+    "desc": "Sabes que la situacion empeoro cuando ves bajar a vader",
+    "precio": "13000",
+    "img": "img/lambda.png",
+    "alt": "Imagen de la nave lambda"
+  },
+  {
+    "id": "5",
+    "nombre": "X-Wing",
+    "desc": "el clasico de los rebeldes",
+    "precio": "10000",
+    "img": "img/xwing.png",
+    "alt": "Imagen del XWING"
+  }
+]
